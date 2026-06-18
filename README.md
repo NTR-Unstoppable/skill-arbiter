@@ -20,10 +20,10 @@ handle it, the arbiter:
 
 ```bash
 # Register the marketplace
-/plugin marketplace add github.com/<you>/skill-arbiter
+/plugin marketplace add github.com/NTR-Unstoppable/skill-arbiter
 
 # Install
-/plugin install skill-arbiter@<you>
+/plugin install skill-arbiter@NTR-Unstoppable
 ```
 
 ### Manual install
