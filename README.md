@@ -16,15 +16,39 @@ handle it, the arbiter:
 
 ## Installation
 
-Place in any skill directory Claude Code scans:
+### Plugin install (recommended)
+
+```bash
+# Register the marketplace
+/plugin marketplace add github.com/<you>/skill-arbiter
+
+# Install
+/plugin install skill-arbiter@<you>
+```
+
+### Manual install
+
+```bash
+git clone https://github.com/<you>/skill-arbiter.git
+cp -r skill-arbiter/skills/skill-arbiter ~/.claude/skills/
+```
+
+## Project structure
 
 ```
-.claude/skills/skill-arbiter/
-├── SKILL.md
+skill-arbiter/
+├── .claude-plugin/
+│   ├── plugin.json
+│   └── marketplace.json
+├── skills/
+│   └── skill-arbiter/
+│       ├── SKILL.md
+│       ├── decision_cache.json
+│       └── references/
+│           └── skill_overlap_matrix.md
 ├── README.md
-├── decision_cache.json
-└── references/
-    └── skill_overlap_matrix.md
+├── .gitignore
+└── LICENSE
 ```
 
 ## Supported domains
@@ -97,6 +121,14 @@ Method 1 handles ~90% of cases. Method 2 guarantees 100%.
 - Use Method 2 above for mission-critical routing.
 - The arbiter cannot intercept skill calls mid-execution — it must be invoked
   before the target skill runs.
+
+## License
+
+MIT
+
+## Version
+
+1.0.0 — 2026-06-18
 
 ## Version
 
