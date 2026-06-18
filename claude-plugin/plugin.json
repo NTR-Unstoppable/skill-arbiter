@@ -1,0 +1,21 @@
+{
+  "name": "skill-arbiter",
+  "description": "Silent background skill arbiter that automatically detects when multiple installed skills overlap for ANY task, compares candidates via objective metrics or GitHub stars, records the winner, and never asks again for the same task class. Domain-agnostic — works for writing, code, documents, testing, design, debugging, PRs, planning, and any future skill suites.",
+  "version": "1.0.0",
+  "author": {
+    "name": "NTR-Unstoppable"
+  },
+  "license": "MIT",
+  "homepage": "https://github.com/NTR-Unstoppable/skill-arbiter",
+  "repository": "https://github.com/NTR-Unstoppable/skill-arbiter",
+  "keywords": [
+    "skill-router",
+    "arbiter",
+    "overlap-detection",
+    "pre-flight-check",
+    "cache",
+    "version-aware",
+    "domain-agnostic"
+  ],
+  "skills": "./skills/"
+}
