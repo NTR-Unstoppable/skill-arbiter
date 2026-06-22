@@ -1,0 +1,6 @@
+{
+  "version": "1.0",
+  "description": "Skill comparison decision cache. Each entry records a past bake-off result with task fingerprint, candidate versions, scores, and the winner. Cache hits require similarity >= 0.70 AND on-the-fly version drift check passes (all candidate versions unchanged since decision time).",
+  "last_updated": "",
+  "decisions": []
+}
