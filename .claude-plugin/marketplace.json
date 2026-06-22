@@ -1,0 +1,32 @@
+{
+  "name": "skill-arbiter",
+  "id": "skill-arbiter",
+  "owner": {
+    "name": "NTRUnstoppable"
+  },
+  "metadata": {
+    "description": "Silent skill router for Claude Code — compares overlapping skills, caches decisions, and never asks twice",
+    "version": "1.0.0"
+  },
+  "plugins": [
+    {
+      "name": "skill-arbiter",
+      "source": "./",
+      "description": "PRE-FLIGHT CHECK for every task with actionable verbs. Silently scans all available skills, detects overlaps, checks a decision cache, and only interrupts when multiple skills compete. Supports objective comparison (sample-based), GitHub stars, manual override, and parallel aggregation for search/audit tasks. Records every decision so the same task class never pays comparison cost twice.",
+      "version": "1.0.0",
+      "author": {
+        "name": "NTRUnstoppable"
+      },
+      "keywords": [
+        "arbiter",
+        "router",
+        "skill-manager",
+        "workflow",
+        "meta-skill",
+        "comparison",
+        "caching"
+      ],
+      "category": "workflow"
+    }
+  ]
+}

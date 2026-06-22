@@ -1,0 +1,11 @@
+{
+  "name": "skill-arbiter",
+  "description": "Silent skill router — pre-flight checks for overlapping skills, compares candidates, caches decisions, and never asks twice for the same task class.",
+  "version": "1.0.0",
+  "author": {
+    "name": "NTRUnstoppable"
+  },
+  "license": "MIT",
+  "keywords": ["arbiter", "router", "skill-manager", "workflow", "meta-skill"],
+  "skills": ["./skills/skill-arbiter"]
+}

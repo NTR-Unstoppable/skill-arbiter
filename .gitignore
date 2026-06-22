@@ -1,0 +1,9 @@
+# Decision cache is user-specific
+skills/skill-arbiter/decision_cache.json
+
+# Audit log is diagnostic
+skills/skill-arbiter/references/audit_log.jsonl
+
+# OS files
+.DS_Store
+Thumbs.db
